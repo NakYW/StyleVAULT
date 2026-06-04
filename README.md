@@ -36,7 +36,6 @@ python style_transfer.py --cnt <content_img_dir> --sty <style_img_dir> --output_
 ## Evaluation
 
 Before running the evaluation, duplicate the content and style images to match the number of stylized images.  
-(24 styles, 24 contents -> 576 style images, 576 content images)
 
 python util/copy_inputs.py --cnt data/cnt --sty data/sty
 
